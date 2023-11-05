@@ -31,7 +31,7 @@ O usuário deve ser capaz de:
 
 ### Links
 
-- Live Site URL: [](https://simonfranklin1.github.io/carrinho-de-compras/)
+- Live Site URL: [Carrinho de compras](https://simonfranklin1.github.io/carrinho-de-compras/)
 
 ## Meu processo
 
