@@ -1,0 +1,37 @@
+.cart-btn {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    margin-left: 20px;
+    color: #333;
+}
+
+.cart-btn svg {
+    transition: .2s;
+}
+
+.cart-btn:hover svg{
+    scale: 1.1;
+}
+
+.notification {
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 600;
+}

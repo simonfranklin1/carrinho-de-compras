@@ -1,0 +1,19 @@
+.waiting {
+    display: flex;
+    justify-content: center;
+}
+
+.loading {
+    margin-top: 200px;
+    font-size: 2rem;
+    animation: carregando 1s linear infinite;
+}
+
+@keyframes carregando {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+}
