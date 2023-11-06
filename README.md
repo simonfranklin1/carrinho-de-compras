@@ -38,11 +38,12 @@ O usuário deve ser capaz de:
 ### Feito com
 
 - HTML5
-- CSS 
+- CSS
 - Flexbox
 - Grid
+- Javascript
 - React
-
+- Vite
 
 ### Autor
 - Simon Franklin: [Simon Franklin](https://github.com/simonfranklin1)
