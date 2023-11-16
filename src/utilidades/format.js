@@ -15,9 +15,3 @@ export const getLocalStorage = () => {
 
   return array;
 }
-
-const pegarTodosDaLocalStorage = () => {
-  const todos = JSON.parse(localStorage.getItem("todo")) || [];
-
-  return todos;
-}
