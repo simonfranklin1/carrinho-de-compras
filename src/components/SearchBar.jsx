@@ -21,12 +21,12 @@ const SearchBar = () => {
     return (
         <form className='search-bar' onSubmit={handleSearch} >
             <input 
-            type="search" 
-            placeholder='Buscar produto'
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            className='search-input'
-            required 
+                type="search" 
+                placeholder='Buscar produto'
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                className='search-input'
+                required 
             />
             <button type="submit" className='search-btn'>
                 <BsSearch />

@@ -5,7 +5,6 @@ export const formatCurrency = (valor, moeda) => {
       })
 }
 
-
 export const saveLocalStorage = (key, value) => {
   localStorage.setItem(key, JSON.stringify(value));
 }
@@ -14,10 +13,4 @@ export const getLocalStorage = () => {
   const array = JSON.parse(localStorage.getItem('cart'));
 
   return array;
-}
-
-const pegarTodosDaLocalStorage = () => {
-  const todos = JSON.parse(localStorage.getItem("todo")) || [];
-
-  return todos;
 }

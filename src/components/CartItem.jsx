@@ -31,38 +31,38 @@ const CartItem = ({data}) => {
         }   
     }
     
-  return (
-    <section className="cart-item">
-        <img 
-            src={thumbnail} 
-            alt={"imagem do produto" + id} 
-            className='cart-item-image' 
-        />
-        <div className='cart-item-info'>
-            <h3 className='cart-item-title'>{title}</h3>
-            <h3 className='cart-item-price'>{formatCurrency(price, 'BRL')}</h3>
-            <button 
-                type='button' 
-                className="remove-item"
-                onClick={handleRemoveItem}
-            >
-                <BsCartDashFill/>
-            </button>
-            
-            <div className="quantity">
-                <button className="btn-quantity" onClick={decrementItem}>
-                    <AiOutlineMinus className='svg' />
+    return (
+        <section className="cart-item">
+            <img 
+                src={thumbnail} 
+                alt={"imagem do produto" + id} 
+                className='cart-item-image' 
+            />
+            <div className='cart-item-info'>
+                <h3 className='cart-item-title'>{title}</h3>
+                <h3 className='cart-item-price'>{formatCurrency(price, 'BRL')}</h3>
+                <button 
+                    type='button' 
+                    className="remove-item"
+                    onClick={handleRemoveItem}
+                >
+                    <BsCartDashFill/>
                 </button>
+                
+                <div className="quantity">
+                    <button className="btn-quantity" onClick={decrementItem}>
+                        <AiOutlineMinus className='svg' />
+                    </button>
 
-                {quantity}
+                    {quantity}
 
-                <button className="btn-quantity" onClick={incrementItem}>
-                    <AiOutlinePlus className='svg' />
-                </button>
+                    <button className="btn-quantity" onClick={incrementItem}>
+                        <AiOutlinePlus className='svg' />
+                    </button>
+                </div>
             </div>
-        </div>
-    </section>
-  )
+        </section>
+    )
 }
 
 export default CartItem
