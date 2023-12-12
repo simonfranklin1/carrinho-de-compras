@@ -31,18 +31,19 @@ O usuário deve ser capaz de:
 
 ### Links
 
-- Live Site URL: []()
+- Live Site URL: [Carrinho de compras](https://simonfranklin1.github.io/carrinho-de-compras/)
 
 ## Meu processo
 
 ### Feito com
 
 - HTML5
-- CSS 
+- CSS
 - Flexbox
 - Grid
+- Javascript
 - React
-
+- Vite
 
 ### Autor
 - Simon Franklin: [Simon Franklin](https://github.com/simonfranklin1)
