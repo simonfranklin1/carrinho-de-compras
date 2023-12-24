@@ -27,7 +27,7 @@ O usuário deve ser capaz de:
 
 ### Screenshot
 
-![](/src/assets/print%20carrinho%20de%20compras.png)
+![](/src/assets/screenshot-carrinho.png)
 
 ### Links
 
